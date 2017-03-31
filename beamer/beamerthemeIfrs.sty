@@ -18,16 +18,6 @@
 \setbeamerfont{section}{series=\bfseries}
 \setbeamerfont{title}{series=\bfseries}
 
-
-%\titlegraphic{\includegraphics[width=.3\textwidth,height=.17\textheight]{logo_ifrs.pdf}}
-%\titlegraphic{
-%  \raisebox{3cm}{%
-%    \parbox[c]{3cm}{\centering%
-%      \includegraphics[width=2cm]{logo_ifrs.pdf}%
-%    }%
-%  }% 
-%}
-
 \addtobeamertemplate{title page}{
 \begin{center}
 \includegraphics[scale=.04]{logo_ifrs.pdf}
@@ -48,25 +38,16 @@
 \end{beamercolorbox}
 }
  
-\setbeamertemplate{footline}{%
-\usebeamerfont{structure}
-\begin{beamercolorbox}[wd=\paperwidth,ht=2.25ex,dp=1ex]{title in head/foot}%
-\Tiny\hspace*{4mm} \Ffootline \hspace{4mm}
-\end{beamercolorbox}}
-
 \setbeamertemplate{background canvas}{%
   \raisebox{-\paperheight}[0pt][0pt]{%
     \makebox[\paperwidth][c]{%
-      %\includegraphics[width=2.8cm,height=1cm]{logoIfrs.jpg}%
       \includegraphics[width=\paperwidth,height=2cm]{bottomIfrs.pdf}%
-    }%
-  }%
+    }
+  }
 }
 
 
 \setbeamercolor{title}{fg=teal} 
 
-\setbeamertemplate{navigation symbols}{}
- 
 \mode
 <all>
